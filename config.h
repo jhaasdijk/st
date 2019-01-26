@@ -5,8 +5,14 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-static int borderpx = 2;
+char font[] = "Dina:size=9:antialias=true:autohint=true";
+
+/* disable bold, italic and roman fonts globally */
+int disablebold = 1;
+int disableitalic = 1;
+int disableroman = 1;
+
+int borderpx = 2;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -62,7 +68,7 @@ static unsigned int cursorthickness = 2;
  *    U+2500 - U+259F except dashes, diagonals and shades.
  * 0: disable (render all glyphs normally from the font).
  */
-const int boxdraw = 0;
+const int boxdraw = 1;
 
 /*
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
