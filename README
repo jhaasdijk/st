@@ -28,7 +28,35 @@ the st terminfo entry with the following command:
 
 See the man page for additional details.
 
+
 Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
+
+
+----------------------------------------
+
+
+Patches
+-------
+Patches applied in this repository are:
+    - boxdraw
+    - disable bold font
+    - hidecursor
+    - scrollback
+
+
+Updating
+--------
+Fetching and pulling from upstream can be done with the following command:
+
+    git pull upstream master
+
+Where `upstream` is:
+
+    git remote add upstream https://git.suckless.org/st
+
+Afterwards push back to your own repository:
+
+    git push origin master
 
