@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Fira Code:size=8:antialias=true:autohint=true";
+char font[] = "Ubuntu Mono:size=12:antialias=true:autohint=true";
 
 /* disable bold, italic and roman fonts globally */
 int disablebold = 1;
