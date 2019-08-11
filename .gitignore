@@ -1,6 +1,6 @@
-boxdraw.o
-st.o
-x.o
+src/boxdraw.o
+src/st.o
+src/x.o
 
-st
+src/st
 result
