@@ -1,6 +1,6 @@
 boxdraw.o
+st.o
+x.o
 
 st
-st.o
-
-x.o
+result
