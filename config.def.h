@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Ubuntu Mono:size=12:antialias=true:autohint=true";
+char font[] = "JetBrainsMono Nerd Font:size=10:antialias=true:autohint=false";
 
 /* disable bold, italic and roman fonts globally */
 int disablebold = 1;
