@@ -1,6 +1,8 @@
-src/boxdraw.o
-src/st.o
-src/x.o
+boxdraw.o
+st.o
+x.o
 
-src/st
+config.h
+
+st
 result
